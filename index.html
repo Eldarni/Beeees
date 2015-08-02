@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Beeees</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/bees.css">
+</head>
+<body>
+
+    <style>
+
+
+        .queue > ul { margin: 0px auto; padding: 0px; width: 500px; list-style: none; }
+        .queue > ul > li { display: block; width: 500px; margin: 10px; padding: 5px; }
+        
+
+        .queue > ul > li > ul { margin: 0px; padding: 0px; list-style: none; }
+        .queue > ul > li > ul > li { position: relative; display: block; width: 500px; height: 120px;}
+
+        .queue > ul > li > ul > li > div { position: absolute; background-color: #EEEEEE; }
+        .queue > ul > li > ul > li > div::before, .queue > ul > li > ul > li > div::after { content: ''; display: block; position: absolute; top: 0px; width: 0px; height: 0px; border: 32px solid transparent; }
+        .queue > ul > li > ul > li > div::before { border-right: 32px solid #EEEEEE; left: -64px; }
+        .queue > ul > li > ul > li > div::after { border-left: 32px solid #EEEEEE; right: -64px; }
+
+        .queue > ul > li > ul > li > div.bee-princess { top: 20px; left: 0px; }
+        .queue > ul > li > ul > li > div.bee-drone {    top: 20px; left: 180px; }
+        .queue > ul > li > ul > li > div.bee-queen {    top: 20px; left: 400px; }
+
+        .queue > ul > li > ul > li > div small { display: block; font-family: 'Lucida Console', 'Monaco', 'monospace'; position: absolute; top: 70px; left: -20px; width: 150px; }
+
+
+            .queue > ul > li > ul > li:not(:first-child) { display: none; } /* hide all but the first one - will cycle these later */
+
+
+        /* MAIN HEADER */
+        .main-logo { margin-top: 25px; text-align: center; }
+
+        /* BEE SEARCH */
+        .search { text-align: center; margin-top: 30px; }
+        .search div { position: relative; margin: 0px auto; width: 700px; height: 50px; background: #F9F9F9; }
+        .search div::before, .search div::after { content: ''; display: block; position: absolute; top: 0px; width: 0px; height: 0px; border: 25px solid transparent; }
+        .search div::before { border-right: 25px solid #F9F9F9; left: -50px; }
+        .search div::after { border-left: 25px solid #F9F9F9; right: -50px; }
+
+        .search input { border: none; background: transparent; width: 660px; height: 50px; font-size: 20px; padding-left: 5px; }
+
+
+
+
+
+
+
+
+
+    </style>
+
+
+    <header class="main-logo">
+        <img src="/images/bee-logo.png" alt="Beeees" width="500" height="379">
+    </header>
+
+    <main>
+
+        <section class="search">
+            <div>
+                <label for="search"><i class="fa fa-search"></i></label>
+                <input type="text" id="search" name="search" placeholder="Search Bee's"><a href="#" class="fa fa-times"></a>
+            </div>
+        </section>
+
+        <section class="queue">
+            <ul></ul>
+        </section>
+
+    </main>
+
+
+
+
+
+
+    <script id="tpl-bee-breeding-wrapper" type="text/html">
+        <li><ul>[[=bees]]</ul></li>
+    </script>
+
+    <script id="tpl-bee-breeding-item" type="text/html">
+        <li>
+            <div class="bee-princess [[=princess.sprite]]" title="[[=princess.name]]"><small>[[=princess.name]] Princess</small></div>
+            <div class="bee-drone [[=drone.sprite]]" title="[[=drone.name]]"><small>[[=drone.name]] Drone</small></div>
+            <div class="bee-queen [[=queen.sprite]]" title="[[=queen.name]]"><small>[[=queen.name]] Queen</small></div>
+        </li>
+    </script>
+
+
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/zeno-core.js"></script>
+    <script>
+
+                    //extrabees.species.blutonium
+                    //forestry.speciesSinister
+                    //forestry.speciesCultivated
+                    //forestry.speciesImperial
+
+
+
+        ;(function ($, window, document, undefined) {
+
+            "use strict";
+
+            //setup our main functions etc
+            var bees = null;
+
+            //load our raw bee data
+            function load_bees() {
+
+
+                $.getJSON('./json/bees.json', function(data) {
+                    console.log('got bees'); bees = data;
+                    //var tree = new BeeTree(data, 'forestry.speciesImperial');
+                    var tree = new BeeQueue(data, 'extrabees.species.blutonium');
+                    console.log('tree made');
+                });
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            function BeeQueue(bees, bee) {
+
+                //
+                this.bees = bees, this.bee_tree = {}, this.bee_list = {};
+
+                this.build(this.bee_tree, this.bee_list, 0, bee);
+
+
+                this.renderQueue($('.queue ul'), this.bee_list, 0);
+                //this.renderTree($('.tree ul'), this.bee_tree, this.bee_list, 0);
+
+                console.log('===================================');
+                console.log(this.bee_tree);
+                console.log(this.bee_list);
+                console.log('===================================');
+            }
+
+            /**
+             * Work a way through the bee data and build up our list and tree data
+             * @param  {[type]} tree          [description]
+             * @param  {[type]} depth [description]
+             * @param  {[type]} bee           [description]
+             * @return void
+             */
+            BeeQueue.prototype.build = function(tree, list, depth, bee) {
+
+                //store this bee's depth and create an object for this bee's parents
+                list[bee] = Math.max(depth, list[bee] || 0), tree[bee] = {};
+
+                //if this is a breedable bee - show its parents - need to do this for all paths...
+                if (this.getIsBreedable(bee)) {
+                    this.build(tree[bee], list, (depth + 1), this.getBeeData(bee)['breeding'][0]['allele1']);
+                    this.build(tree[bee], list, (depth + 1), this.getBeeData(bee)['breeding'][0]['allele2']);
+                }
+            }
+
+            /**
+             * [build description]
+             * @param  {[type]} tree          [description]
+             * @param  {[type]} depth [description]
+             * @param  {[type]} bee           [description]
+             * @return void
+             */
+            BeeQueue.prototype.sortBeeList = function(list) {
+                return Object.keys(list).sort(function(a, b) {
+                    return list[b] - list[a];
+                });
+            }
+
+            /**
+             * [build description]
+             * @param  {[type]} tree          [description]
+             * @param  {[type]} depth [description]
+             * @param  {[type]} bee           [description]
+             * @return void
+             */
+            BeeQueue.prototype.renderQueue = function($element, list, depth) {
+
+                //sort the list of bees
+                var sorted_bees = this.sortBeeList(list);
+
+                //create an entry for each breedale bee we find
+                for (var bee in sorted_bees) {
+
+                    //
+                    var bee_details = this.getBeeData(sorted_bees[bee]), combinations = [];
+                    
+                    //
+                    if (bee_details['breeding'] !== null) {
+                        for (var parent in bee_details['breeding']) {
+                            combinations.push(zeno_template('tpl-bee-breeding-item', {
+                                'princess'   : this.getBeeData(bee_details['breeding'][parent]['allele1']),
+                                'drone'      : this.getBeeData(bee_details['breeding'][parent]['allele2']),
+                                'chance'     : bee_details['breeding'][parent]['chance'],
+                                'conditions' : bee_details['breeding'][parent]['conditions'],
+                                'queen'      : bee_details,
+                            }));
+                        }
+
+                        //
+                        $element.append(zeno_template('tpl-bee-breeding-wrapper', {
+                            'bees' : combinations.join(''),
+                        }));
+                    }
+                }
+            }
+
+            /**
+             * [build description]
+             * @param  string bee Required - Get the localised name of the bee
+             * @return string
+             */
+            BeeQueue.prototype.getBeeData = function(bee) {
+                return this.bees.filter(function(object) {
+                    return object.type == bee;
+                })[0];
+            }
+
+           /**
+             * [build description]
+             * @param  string bee Required - Get the localised name of the bee
+             * @return string
+             */
+            BeeQueue.prototype.getBreedingData = function(bee_details, parent) {
+                return bee_details['breeding'][parent];
+            }
+
+            /**
+             * Get if the current bee is breedable
+             * @param  string bee Required - Get the localised name of the bee
+             * @return boolean
+             */
+            BeeQueue.prototype.getIsBreedable = function(bee) {
+                return ((this.getBeeData(bee)['breeding'] !== null) ? true : false);
+            }
+
+
+
+
+
+
+
+
+            // /**
+            //  * [build description]
+            //  * @param  {[type]} tree          [description]
+            //  * @param  {[type]} depth [description]
+            //  * @param  {[type]} bee           [description]
+            //  * @return void
+            //  */
+            // BeeTree.prototype.renderTree = function($element, tree, list, depth) {
+            //     //console.log(tree[depth]);
+            //     //build this level of dom
+            //     for (var bee in tree) {
+            //         console.log(bee, 'current', depth);
+            //         console.log(bee, 'max-depth', list[bee]);
+            //         var show_bee = ((depth < list[bee]) ? true : false);
+            //         // //render this bee then set its depth to 9999
+            //         // if (depth == list[bee]) {
+            //         //     show_bee = true;
+            //         //     list[bee] = -99999;
+            //         // }
+            //         this.render($('<li><a href="#">' +  this.bees[bee].name + ' = (' + depth + ', ' + list[bee] + ') </a><ul' + ((show_bee) ? ' class="hidden"' : '') + '></ul></li>').appendTo($element).find('> ul'), tree[bee], list, (depth + 1));
+            //             //}
+            //     }
+
+
+
+
+
+            load_bees();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        })(jQuery, window, document);
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>

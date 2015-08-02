@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>smith-net.org.uk</title>
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/global.css">
+
+
+
+</head>
+<body>
+    <h1>Bees</h1>
+
+
+
+    <style>
+
+/*Now the CSS*/
+* {margin: 0; padding: 0;}
+
+
+body { overflow: scroll;}
+.tree { width: 20000px; }
+
+
+.tree ul {
+    padding-top: 20px; position: relative;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.tree li {
+    float: left; text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+/*We will use ::before and ::after to draw the connectors*/
+
+.tree li::before, .tree li::after{
+    content: '';
+    position: absolute; top: 0; right: 50%;
+    border-top: 1px solid #ccc;
+    width: 50%; height: 20px;
+}
+.tree li::after{
+    right: auto; left: 50%;
+    border-left: 1px solid #ccc;
+}
+
+/*We need to remove left-right connectors from elements without
+any siblings*/
+.tree li:only-child::after, .tree li:only-child::before {
+    display: none;
+}
+
+/*Remove space from the top of single children*/
+.tree li:only-child{ padding-top: 0;}
+
+/*Remove left connector from first child and
+right connector from last child*/
+.tree li:first-child::before, .tree li:last-child::after{
+    border: 0 none;
+}
+/*Adding back the vertical connector to the last nodes*/
+.tree li:last-child::before{
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+}
+.tree li:first-child::after{
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+}
+
+/*Time to add downward connectors from parents*/
+.tree ul ul:not(:empty)::before {
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 1px solid #ccc;
+    width: 0; height: 20px;
+}
+
+
+
+
+.tree li a {
+
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #666;
+    font-family: arial, verdana, tahoma;
+    font-size: 11px;
+    display: inline-block;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+
+.tree ul.hidden li a { opacity: 0.2; }
+
+
+
+
+
+.tree li a { width: 100px; height: 55px; background: #CCCCCC; position: relative; }
+.tree li a:before { content: ""; position: absolute; top: -25px; left: 0; width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 25px solid #CCCCCC; }
+.tree li a:after { content: ""; position: absolute; bottom: -25px; left: 0; width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-top: 25px solid #CCCCCC; }
+
+
+
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+.tree li a:hover, .tree li a:hover+ul li a {
+    background: #c8e4f8; color: #000; border: 1px solid #94a0b4;
+}
+
+/*Connector styles on hover*/
+.tree li a:hover+ul li::after,
+.tree li a:hover+ul li::before,
+.tree li a:hover+ul::before,
+.tree li a:hover+ul ul::before{
+    border-color:  #94a0b4;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="tree">
+        <ul></ul>
+    </div>
+
+
+
+
+
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script>
+        ;(function ($, window, document, undefined) {
+
+            "use strict";
+
+            //setup our main functions etc
+            var bees = null;
+
+            //load our raw bee data
+            function load_bees() {
+                $.getJSON('./assets/json/bees.json', function(data) {
+                    console.log('got bees'); bees = data;
+
+
+                    //build_tree($('.tree ul'), 'extrabees.species.blutonium');
+
+                    //forestry.speciesSinister
+                    //forestry.speciesCultivated
+                    //forestry.speciesImperial
+                            var tree = new BeeTree(data, 'forestry.speciesImperial');
+
+
+
+
+
+                    console.log('tree made');
+                });
+
+
+
+                    //proto the bee build sysetem
+
+
+
+
+
+            }
+
+
+
+
+
+
+
+
+
+
+            function BeeTree(bees, bee) {
+
+                //
+                this.bees = bees, this.bee_tree = {}, this.bee_list = {};
+
+                this.build(this.bee_tree, this.bee_list, 0, bee);
+
+
+                this.render($('.tree ul'), this.bee_tree, this.bee_list, 0);
+
+                console.log('===================================');
+                console.log(this.bee_tree);
+                console.log(this.bee_list);
+                console.log('===================================');
+            }
+
+            /**
+             * [build description]
+             * @param  {[type]} tree          [description]
+             * @param  {[type]} depth [description]
+             * @param  {[type]} bee           [description]
+             * @return void
+             */
+            BeeTree.prototype.build = function(tree, list, depth, bee) {
+
+                //store this bee's depth and create an object for this bee's parents
+                list[bee] = Math.max(depth, list[bee] || 0), tree[bee] = {};
+
+
+
+
+                //if this is a breedable bee - show its parents
+                if (this.bees[bee].parents !== null) {
+                    this.build(tree[bee], list, (depth + 1), this.bees[bee].parents[0]['parent_1']);
+                    this.build(tree[bee], list, (depth + 1), this.bees[bee].parents[0]['parent_2']);
+                }
+            }
+
+
+
+            /**
+             * [build description]
+             * @param  {[type]} tree          [description]
+             * @param  {[type]} depth [description]
+             * @param  {[type]} bee           [description]
+             * @return void
+             */
+            BeeTree.prototype.render = function($element, tree, list, depth) {
+
+
+                //console.log(tree[depth]);
+
+                //build this level of dom
+
+
+
+                for (var bee in tree) {
+                    console.log(bee, 'current', depth);
+                    console.log(bee, 'max-depth', list[bee]);
+
+
+                    var show_bee = ((depth < list[bee]) ? true : false);
+
+                    // //render this bee then set its depth to 9999
+                    // if (depth == list[bee]) {
+                    //     show_bee = true;
+                    //     list[bee] = -99999;
+                    // }
+
+
+                    this.render($('<li><a href="#">' +  this.bees[bee].name + ' = (' + depth + ', ' + list[bee] + ') </a><ul' + ((show_bee) ? ' class="hidden"' : '') + '></ul></li>').appendTo($element).find('> ul'), tree[bee], list, (depth + 1));
+
+
+
+                        //}
+
+
+
+                }
+
+                // //build this level of dom
+                // var $bee = $('<li><a href="#">' +  this.bees[bee].name + '</a></li>').appendTo($element);
+
+                // //if this is a breedable bee - show its parents
+                // if (bees[bee].parents !== null) {
+
+                //     $bee.append('<ul></ul>');
+
+                //     this.render($bee.find('> ul'), tree[bee], list, (depth + 1), this.bees[bee].parents[0]['parent_1']);
+                //     this.render($bee.find('> ul'), tree[bee], list, (depth + 1), this.bees[bee].parents[0]['parent_1']);
+                // }
+
+
+                // //store this bee's depth and create an object for this bee's parents
+                // list[bee] = depth, tree[bee] = {};
+
+                // //if this is a breedable bee - show its parents
+                // if (this.bees[bee].parents !== null) {
+                //     this.build(tree[bee], list, (depth + 1), this.bees[bee].parents[0]['parent_1']);
+                //     this.build(tree[bee], list, (depth + 1), this.bees[bee].parents[0]['parent_2']);
+                // }
+            }
+
+
+
+
+
+
+            // //returns an array with the bees in a list and the types used + depth
+            // function build_tree(depth, bee) {
+            //     console.log('Adding: ' + bees[bee].name);
+
+
+            //     //if this is a breedable bee - show its parents
+            //     if (bees[bee].parents !== null) {
+
+
+
+            //         return [build_tree((depth + 1), bees[bee].parents[0]['parent_1']), build_tree((depth + 1), bees[bee].parents[0]['parent_2'])];
+            //     }
+
+
+            //     return
+
+
+
+
+
+            // }
+
+
+
+            // //returns an array with the bees in a list and the types used + depth
+            // function render_tree($element, bee) {
+            //     console.log('Adding: ' + bees[bee].name);
+
+
+
+
+            //     //build this level of dom
+            //     var $bee = $('<li><a href="#">' + bees[bee].name + '</a></li>').appendTo($element);
+
+            //     //if this is a breedable bee - show its parents
+            //     if (bees[bee].parents !== null) {
+
+            //         $bee.append('<ul></ul>');
+
+            //         build_tree($bee.find('> ul'), bees[bee].parents[0]['parent_1']);
+            //         build_tree($bee.find('> ul'), bees[bee].parents[0]['parent_2']);
+            //     }
+
+
+
+
+
+
+
+
+            // }
+
+
+
+            load_bees();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        })(jQuery, window, document);
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>

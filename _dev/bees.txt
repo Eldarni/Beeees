@@ -1,0 +1,5007 @@
+Array
+(
+    [extrabees.species.basalt] => Array
+        (
+            [name] => Embittered
+            [parents] =>
+            [notes] =>
+        )
+
+    [extrabees.species.rock] => Array
+        (
+            [name] => Rocky
+            [parents] =>
+            [notes] =>
+        )
+
+    [extrabees.species.water] => Array
+        (
+            [name] => Watery
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesEnded] => Array
+        (
+            [name] => Ender
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesForest] => Array
+        (
+            [name] => Forest
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesMarshy] => Array
+        (
+            [name] => Marshy
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesMeadows] => Array
+        (
+            [name] => Meadows
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesModest] => Array
+        (
+            [name] => Modest
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesMonastic] => Array
+        (
+            [name] => Monastic
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesSteadfast] => Array
+        (
+            [name] => Steadfast
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesTropical] => Array
+        (
+            [name] => Tropical
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesValiant] => Array
+        (
+            [name] => Valiant
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesWintry] => Array
+        (
+            [name] => Wintry
+            [parents] =>
+            [notes] =>
+        )
+
+    [magicbees.speciesAttuned] => Array
+        (
+            [name] => Attuned
+            [parents] =>
+            [notes] =>
+        )
+
+    [magicbees.speciesBotBotanic] => Array
+        (
+            [name] => Botanic
+            [parents] =>
+            [notes] =>
+        )
+
+    [magicbees.speciesInfernal] => Array
+        (
+            [name] => Infernal
+            [parents] =>
+            [notes] =>
+        )
+
+    [magicbees.speciesMystical] => Array
+        (
+            [name] => Mystical
+            [parents] =>
+            [notes] =>
+        )
+
+    [magicbees.speciesOblivion] => Array
+        (
+            [name] => Oblivian
+            [parents] =>
+            [notes] =>
+        )
+
+    [magicbees.speciesSorcerous] => Array
+        (
+            [name] => Sorcerous
+            [parents] =>
+            [notes] =>
+        )
+
+    [magicbees.speciesUnusual] => Array
+        (
+            [name] => Unusual
+            [parents] =>
+            [notes] =>
+        )
+
+    [forestry.speciesCommon] => Array
+        (
+            [name] => Common
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesForest
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [1] => Array
+                        (
+                            [parent_1] => forestry.speciesModest
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [2] => Array
+                        (
+                            [parent_1] => forestry.speciesModest
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [3] => Array
+                        (
+                            [parent_1] => forestry.speciesWintry
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [4] => Array
+                        (
+                            [parent_1] => forestry.speciesWintry
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [5] => Array
+                        (
+                            [parent_1] => forestry.speciesWintry
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [6] => Array
+                        (
+                            [parent_1] => forestry.speciesTropical
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [7] => Array
+                        (
+                            [parent_1] => forestry.speciesTropical
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [8] => Array
+                        (
+                            [parent_1] => forestry.speciesTropical
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [9] => Array
+                        (
+                            [parent_1] => forestry.speciesTropical
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [10] => Array
+                        (
+                            [parent_1] => forestry.speciesMarshy
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [11] => Array
+                        (
+                            [parent_1] => forestry.speciesMarshy
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [12] => Array
+                        (
+                            [parent_1] => forestry.speciesMarshy
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [13] => Array
+                        (
+                            [parent_1] => forestry.speciesMarshy
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [14] => Array
+                        (
+                            [parent_1] => forestry.speciesMarshy
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [15] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [16] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [17] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [18] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [19] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [20] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [21] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => extrabees.species.rock
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [22] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => extrabees.species.basalt
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [23] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [24] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [25] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [26] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [27] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [28] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [29] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => extrabees.species.basalt
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [30] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [31] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [32] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [33] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [34] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [35] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [36] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => extrabees.species.rock
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [37] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => extrabees.species.water
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [38] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => extrabees.species.basalt
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [39] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [40] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [41] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [42] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [43] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [44] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [45] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => extrabees.species.rock
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [46] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => extrabees.species.water
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [47] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => extrabees.species.basalt
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [48] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [49] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [50] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [51] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [52] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [53] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [54] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => extrabees.species.rock
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [55] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => extrabees.species.water
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [56] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => extrabees.species.basalt
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [57] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [58] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [59] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [60] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [61] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [62] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [63] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => extrabees.species.rock
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [64] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => extrabees.species.water
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                    [65] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => extrabees.species.basalt
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesCultivated] => Array
+        (
+            [name] => Cultivated
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [1] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [2] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [3] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [4] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [5] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [6] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [7] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [8] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [9] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [10] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [11] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesNoble] => Array
+        (
+            [name] => Noble
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesMajestic] => Array
+        (
+            [name] => Majestic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesNoble
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesImperial] => Array
+        (
+            [name] => Imperial
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesNoble
+                            [parent_2] => forestry.speciesMajestic
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesDiligent] => Array
+        (
+            [name] => Diligent
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesUnweary] => Array
+        (
+            [name] => Unweary
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesDiligent
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesIndustrious] => Array
+        (
+            [name] => Industrious
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesDiligent
+                            [parent_2] => forestry.speciesUnweary
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesHeroic] => Array
+        (
+            [name] => Heroic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesSteadfast
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 6
+                            [conditions] => Is restricted to FOREST-like environments.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesSinister] => Array
+        (
+            [name] => Sinister
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesModest
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 60
+                            [conditions] => Is restricted to NETHER-like environments.
+                        )
+
+                    [1] => Array
+                        (
+                            [parent_1] => forestry.speciesTropical
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 60
+                            [conditions] => Is restricted to NETHER-like environments.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesFiendish] => Array
+        (
+            [name] => Fiendish
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesSinister
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 40
+                            [conditions] => Is restricted to NETHER-like environments.
+                        )
+
+                    [1] => Array
+                        (
+                            [parent_1] => forestry.speciesSinister
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 40
+                            [conditions] => Is restricted to NETHER-like environments.
+                        )
+
+                    [2] => Array
+                        (
+                            [parent_1] => forestry.speciesSinister
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 40
+                            [conditions] => Is restricted to NETHER-like environments.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesDemonic] => Array
+        (
+            [name] => Demonic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesSinister
+                            [parent_2] => forestry.speciesFiendish
+                            [chance] => 25
+                            [conditions] => Is restricted to NETHER-like environments.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesFrugal] => Array
+        (
+            [name] => Frugal
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesModest
+                            [parent_2] => forestry.speciesSinister
+                            [chance] => 16
+                            [conditions] => Temperature HOT required.|Humidity ARID required.
+                        )
+
+                    [1] => Array
+                        (
+                            [parent_1] => forestry.speciesModest
+                            [parent_2] => forestry.speciesFiendish
+                            [chance] => 10
+                            [conditions] => Temperature HOT required.|Humidity ARID required.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesAustere] => Array
+        (
+            [name] => Austere
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesModest
+                            [parent_2] => forestry.speciesFrugal
+                            [chance] => 8
+                            [conditions] => Temperature HOT required.|Humidity ARID required.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesExotic] => Array
+        (
+            [name] => Exotic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesAustere
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesEdenic] => Array
+        (
+            [name] => Edenic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesExotic
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesIcy] => Array
+        (
+            [name] => Icy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesIndustrious
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 12
+                            [conditions] => Temperature between ICY and COLD.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesGlacial] => Array
+        (
+            [name] => Glacial
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesIcy
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 8
+                            [conditions] => Temperature between ICY and COLD.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesLeporine] => Array
+        (
+            [name] => Leporine
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMeadows
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesMerry] => Array
+        (
+            [name] => Merry
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesWintry
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesTipsy] => Array
+        (
+            [name] => Tipsy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesWintry
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesTricky] => Array
+        (
+            [name] => Tricky
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesSinister
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesRural] => Array
+        (
+            [name] => Rural
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMeadows
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 12
+                            [conditions] => Is restricted to PLAINS-like environments.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesFarmerly] => Array
+        (
+            [name] => Farmerly
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesRural
+                            [parent_2] => forestry.speciesUnweary
+                            [chance] => 10
+                            [conditions] => Is restricted to PLAINS-like environments.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesArgrarian] => Array
+        (
+            [name] => Agrarian
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesFarmerly
+                            [parent_2] => forestry.speciesIndustrious
+                            [chance] => 6
+                            [conditions] => Is restricted to PLAINS-like environments.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesMiry] => Array
+        (
+            [name] => Miry
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMarshy
+                            [parent_2] => forestry.speciesNoble
+                            [chance] => 15
+                            [conditions] => Temperature between NORMAL and WARM.|Humidity between NORMAL and DAMP.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesBoggy] => Array
+        (
+            [name] => Boggy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMarshy
+                            [parent_2] => forestry.speciesMiry
+                            [chance] => 9
+                            [conditions] => Temperature between NORMAL and WARM.|Humidity between NORMAL and DAMP.
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesSecluded] => Array
+        (
+            [name] => Secluded
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMonastic
+                            [parent_2] => forestry.speciesAustere
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesHermitic] => Array
+        (
+            [name] => Hermitic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMonastic
+                            [parent_2] => forestry.speciesSecluded
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesSpectral] => Array
+        (
+            [name] => Spectral
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesHermitic
+                            [parent_2] => forestry.speciesEnded
+                            [chance] => 4
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesPhantasmal] => Array
+        (
+            [name] => Phantasmal
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesSpectral
+                            [parent_2] => forestry.speciesEnded
+                            [chance] => 2
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesVindictive] => Array
+        (
+            [name] => Vindictive
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMonastic
+                            [parent_2] => forestry.speciesDemonic
+                            [chance] => 4
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesVengeful] => Array
+        (
+            [name] => Vengeful
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesDemonic
+                            [parent_2] => forestry.speciesVindictive
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                    [1] => Array
+                        (
+                            [parent_1] => forestry.speciesMonastic
+                            [parent_2] => forestry.speciesVindictive
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [forestry.speciesAvenging] => Array
+        (
+            [name] => Avenging
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesVengeful
+                            [parent_2] => forestry.speciesVindictive
+                            [chance] => 4
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.arid] => Array
+        (
+            [name] => Arid
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMeadows
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.barren] => Array
+        (
+            [name] => Barren
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.arid
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.desolate] => Array
+        (
+            [name] => Desolate
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.arid
+                            [parent_2] => extrabees.species.barren
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.gnawing] => Array
+        (
+            [name] => Gnawing
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.barren
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.rotten] => Array
+        (
+            [name] => Decaying
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.desolate
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.bone] => Array
+        (
+            [name] => Skeletal
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.desolate
+                            [parent_2] => forestry.speciesFrugal
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.creeper] => Array
+        (
+            [name] => Creepy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.desolate
+                            [parent_2] => forestry.speciesAustere
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.decomposing] => Array
+        (
+            [name] => Decomposing
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.gnawing
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.stone] => Array
+        (
+            [name] => Tolerant
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.granite] => Array
+        (
+            [name] => Robust
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => extrabees.species.stone
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.mineral] => Array
+        (
+            [name] => Resilient
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesImperial
+                            [parent_2] => extrabees.species.granite
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.iron] => Array
+        (
+            [name] => Rusty
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.mineral
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.copper] => Array
+        (
+            [name] => Corroded
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.mineral
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.tin] => Array
+        (
+            [name] => Tarnished
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.mineral
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.lead] => Array
+        (
+            [name] => Leaden
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.mineral
+                            [parent_2] => forestry.speciesUnweary
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.nickel] => Array
+        (
+            [name] => Lustered
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.mineral
+                            [parent_2] => forestry.speciesUnweary
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.silver] => Array
+        (
+            [name] => Shining
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.iron
+                            [parent_2] => forestry.speciesImperial
+                            [chance] => 2
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.gold] => Array
+        (
+            [name] => Glittering
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.copper
+                            [parent_2] => forestry.speciesImperial
+                            [chance] => 2
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.platinum] => Array
+        (
+            [name] => Valuable
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.gold
+                            [parent_2] => extrabees.species.silver
+                            [chance] => 2
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.lapis] => Array
+        (
+            [name] => Lapis
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.mineral
+                            [parent_2] => extrabees.species.water
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.emerald] => Array
+        (
+            [name] => Emerald
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.lapis
+                            [parent_2] => forestry.speciesNoble
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.ruby] => Array
+        (
+            [name] => Ruby
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.emerald
+                            [parent_2] => forestry.speciesAustere
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.sapphire] => Array
+        (
+            [name] => Sapphire
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.emerald
+                            [parent_2] => extrabees.species.ocean
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.diamond] => Array
+        (
+            [name] => Diamond
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.lapis
+                            [parent_2] => forestry.speciesImperial
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.unstable] => Array
+        (
+            [name] => Unstable
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesAustere
+                            [parent_2] => extrabees.species.rock
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.nuclear] => Array
+        (
+            [name] => Nuclear
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.unstable
+                            [parent_2] => extrabees.species.iron
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.radioactive] => Array
+        (
+            [name] => Radioactive
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.nuclear
+                            [parent_2] => extrabees.species.gold
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.yellorium] => Array
+        (
+            [name] => Yellorium
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.nuclear
+                            [parent_2] => extrabees.species.gold
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.cyanite] => Array
+        (
+            [name] => Cyanite
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.nuclear
+                            [parent_2] => extrabees.species.yellorium
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.blutonium] => Array
+        (
+            [name] => Blutonium
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.yellorium
+                            [parent_2] => extrabees.species.cyanite
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.ancient] => Array
+        (
+            [name] => Ancient
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesNoble
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.primeval] => Array
+        (
+            [name] => Primeval
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.ancient
+                            [parent_2] => forestry.speciesNoble
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.prehistoric] => Array
+        (
+            [name] => Prehistoric
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.primeval
+                            [parent_2] => forestry.speciesMajestic
+                            [chance] => 8ra
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.relic] => Array
+        (
+            [name] => Relic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.prehistoric
+                            [parent_2] => forestry.speciesImperial
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.coal] => Array
+        (
+            [name] => Fossilised
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.primeval
+                            [parent_2] => extrabees.species.growing
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.resin] => Array
+        (
+            [name] => Resinous
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.primeval
+                            [parent_2] => extrabees.species.fungal
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.oil] => Array
+        (
+            [name] => Oily
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.primeval
+                            [parent_2] => extrabees.species.ocean
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.distilled] => Array
+        (
+            [name] => Distilled
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.oil
+                            [parent_2] => forestry.speciesIndustrious
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.fuel] => Array
+        (
+            [name] => Refined
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.oil
+                            [parent_2] => extrabees.species.distilled
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.creosote] => Array
+        (
+            [name] => Tarry
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.fuel
+                            [parent_2] => extrabees.species.coal
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.latex] => Array
+        (
+            [name] => Elastic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.fuel
+                            [parent_2] => extrabees.species.resin
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.river] => Array
+        (
+            [name] => River
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.ocean] => Array
+        (
+            [name] => Ocean
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 10
+                            [conditions] => Hive needs to be in Ocean
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.ink] => Array
+        (
+            [name] => Stained
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.black
+                            [parent_2] => extrabees.species.ocean
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.growing] => Array
+        (
+            [name] => Growing
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesDiligent
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.thriving] => Array
+        (
+            [name] => Thriving
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.growing
+                            [parent_2] => forestry.speciesRural
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.blooming] => Array
+        (
+            [name] => Blooming
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.thriving
+                            [parent_2] => extrabees.species.growing
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.sweet] => Array
+        (
+            [name] => Sweetened
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesValiant
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.sugar] => Array
+        (
+            [name] => Sugary
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.sweet
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.ripening] => Array
+        (
+            [name] => Ripening
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.sugar
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.fruit] => Array
+        (
+            [name] => Fruity
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.ripening
+                            [parent_2] => forestry.speciesRural
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.alcohol] => Array
+        (
+            [name] => Fermented
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.fruit
+                            [parent_2] => forestry.speciesRural
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.farm] => Array
+        (
+            [name] => Farmed
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCultivated
+                            [parent_2] => forestry.speciesRural
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.milk] => Array
+        (
+            [name] => Bovine
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesRural
+                            [parent_2] => extrabees.species.water
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.coffee] => Array
+        (
+            [name] => Caffeinated
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesTropical
+                            [parent_2] => forestry.speciesRural
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.swamp] => Array
+        (
+            [name] => Damp
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.boggy] => Array
+        (
+            [name] => Boggy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.swamp
+                            [parent_2] => forestry.speciesMarshy
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.fungal] => Array
+        (
+            [name] => Fungal
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.boggy
+                            [parent_2] => extrabees.species.swamp
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.tempered] => Array
+        (
+            [name] => Furious
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.basalt
+                            [parent_2] => forestry.speciesSinister
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.volcanic] => Array
+        (
+            [name] => Volcanic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.basalt
+                            [parent_2] => extrabees.species.tempered
+                            [chance] => 6
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.malicious] => Array
+        (
+            [name] => Malicious
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesSinister
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.infectious] => Array
+        (
+            [name] => Infectious
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.malicious
+                            [parent_2] => forestry.speciesTropical
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.virulent] => Array
+        (
+            [name] => Virulent
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.malicious
+                            [parent_2] => extrabees.species.infectious
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.viscous] => Array
+        (
+            [name] => Viscous
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesExotic
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.glutinous] => Array
+        (
+            [name] => Glutinous
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.viscous
+                            [parent_2] => forestry.speciesExotic
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.sticky] => Array
+        (
+            [name] => Sticky
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.viscous
+                            [parent_2] => extrabees.species.glutinous
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.corrosive] => Array
+        (
+            [name] => Corrosive
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.virulent
+                            [parent_2] => extrabees.species.sticky
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.caustic] => Array
+        (
+            [name] => Caustic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.corrosive
+                            [parent_2] => forestry.speciesFiendish
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.acidic] => Array
+        (
+            [name] => Acidic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.corrosive
+                            [parent_2] => extrabees.species.caustic
+                            [chance] => 4
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.excited] => Array
+        (
+            [name] => Excited
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCultivated
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.energetic] => Array
+        (
+            [name] => Energetic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.excited
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.artic] => Array
+        (
+            [name] => Frigid
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesWintry
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.freezing] => Array
+        (
+            [name] => Absolute
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.ocean
+                            [parent_2] => extrabees.species.artic
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.shadow] => Array
+        (
+            [name] => Shadowed
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.stone
+                            [parent_2] => forestry.speciesSinister
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.darkened] => Array
+        (
+            [name] => Darkened
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.shadow
+                            [parent_2] => extrabees.species.basalt
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.abyss] => Array
+        (
+            [name] => Abyssal
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.shadow
+                            [parent_2] => extrabees.species.darkened
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.red] => Array
+        (
+            [name] => Maroon
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesForest
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.yellow] => Array
+        (
+            [name] => Saffron
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMeadows
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.blue] => Array
+        (
+            [name] => Prussian
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.water
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.green] => Array
+        (
+            [name] => Natural
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesTropical
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.black] => Array
+        (
+            [name] => Ebony
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.rock
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.white] => Array
+        (
+            [name] => Bleached
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesWintry
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.brown] => Array
+        (
+            [name] => Sepia
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMarshy
+                            [parent_2] => forestry.speciesValiant
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.orange] => Array
+        (
+            [name] => Amber
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.red
+                            [parent_2] => extrabees.species.yellow
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.cyan] => Array
+        (
+            [name] => Turquoise
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.green
+                            [parent_2] => extrabees.species.blue
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.purple] => Array
+        (
+            [name] => Indigo
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.red
+                            [parent_2] => extrabees.species.blue
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.gray] => Array
+        (
+            [name] => Slate
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.black
+                            [parent_2] => extrabees.species.white
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.lightblue] => Array
+        (
+            [name] => Azure
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.blue
+                            [parent_2] => extrabees.species.white
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.pink] => Array
+        (
+            [name] => Lavender
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.red
+                            [parent_2] => extrabees.species.white
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.limegreen] => Array
+        (
+            [name] => Lime
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.green
+                            [parent_2] => extrabees.species.white
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.magenta] => Array
+        (
+            [name] => Fuchsia
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.purple
+                            [parent_2] => extrabees.species.pink
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.lightgray] => Array
+        (
+            [name] => Ashen
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.gray
+                            [parent_2] => extrabees.species.white
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.glowstone] => Array
+        (
+            [name] => Glowering
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.tempered
+                            [parent_2] => extrabees.species.excited
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.hazardous] => Array
+        (
+            [name] => Hazardous
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesAustere
+                            [parent_2] => extrabees.species.desolate
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.jaded] => Array
+        (
+            [name] => Jaded
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesEnded
+                            [parent_2] => extrabees.species.relic
+                            [chance] => 2
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.celebratory] => Array
+        (
+            [name] => Celebratory
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesAustere
+                            [parent_2] => extrabees.species.excited
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.unusual] => Array
+        (
+            [name] => Abnormal
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesSecluded
+                            [parent_2] => forestry.speciesEnded
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.spatial] => Array
+        (
+            [name] => Spatial
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.unusual
+                            [parent_2] => forestry.speciesHermitic
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.quantum] => Array
+        (
+            [name] => Quantum
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => extrabees.species.spatial
+                            [parent_2] => forestry.speciesSpectral
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [extrabees.species.mystical] => Array
+        (
+            [name] => Mystical
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesNoble
+                            [parent_2] => forestry.speciesMonastic
+                            [chance] => 5
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesEldritch] => Array
+        (
+            [name] => Eldritch
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [1] => Array
+                        (
+                            [parent_1] => magicbees.speciesSorcerous
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [2] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                    [3] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesEsoteric] => Array
+        (
+            [name] => Esoteric
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCultivated
+                            [parent_2] => magicbees.speciesEldritch
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesMysterious] => Array
+        (
+            [name] => Mysterious
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEldritch
+                            [parent_2] => magicbees.speciesEsoteric
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesArcane] => Array
+        (
+            [name] => Arcane
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEsoteric
+                            [parent_2] => magicbees.speciesMysterious
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesCharmed] => Array
+        (
+            [name] => Charmed
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCultivated
+                            [parent_2] => magicbees.speciesEldritch
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesEnchanted] => Array
+        (
+            [name] => Enchanted
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEldritch
+                            [parent_2] => magicbees.speciesCharmed
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesSupernatural] => Array
+        (
+            [name] => Supernatural
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesCharmed
+                            [parent_2] => magicbees.speciesEnchanted
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesEthereal] => Array
+        (
+            [name] => Ethereal
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesArcane
+                            [parent_2] => magicbees.speciesSupernatural
+                            [chance] => 7
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesWindy] => Array
+        (
+            [name] => Windy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSupernatural
+                            [parent_2] => magicbees.speciesEthereal
+                            [chance] => 14
+                            [conditions] => Requires a foundation of Oak Leaves
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesWatery] => Array
+        (
+            [name] => Watery
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSupernatural
+                            [parent_2] => magicbees.speciesEthereal
+                            [chance] => 14
+                            [conditions] => Requires a foundation of Water
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesEarthen] => Array
+        (
+            [name] => Earthen
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSupernatural
+                            [parent_2] => magicbees.speciesEthereal
+                            [chance] => 14
+                            [conditions] => Requires a foundation of Bricks
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesFirey] => Array
+        (
+            [name] => Firey
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSupernatural
+                            [parent_2] => magicbees.speciesEthereal
+                            [chance] => 14
+                            [conditions] => Requires a foundation of Lava
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesAware] => Array
+        (
+            [name] => Aware
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEthereal
+                            [parent_2] => magicbees.speciesAttuned
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesSpirit] => Array
+        (
+            [name] => Spirit
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEthereal
+                            [parent_2] => magicbees.speciesAware
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                    [1] => Array
+                        (
+                            [parent_1] => magicbees.speciesAttuned
+                            [parent_2] => magicbees.speciesAware
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesSoul] => Array
+        (
+            [name] => Soul
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesAware
+                            [parent_2] => magicbees.speciesSpirit
+                            [chance] => 7
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesPupil] => Array
+        (
+            [name] => Pupil
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMonastic
+                            [parent_2] => magicbees.speciesArcane
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesScholarly] => Array
+        (
+            [name] => Scholarly
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesArcane
+                            [parent_2] => magicbees.speciesPupil
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesSavant] => Array
+        (
+            [name] => Savant
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesPupil
+                            [parent_2] => magicbees.speciesScholarly
+                            [chance] => 6
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTimely] => Array
+        (
+            [name] => Timely
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesImperial
+                            [parent_2] => magicbees.speciesEthereal
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesLordly] => Array
+        (
+            [name] => Lordly
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesImperial
+                            [parent_2] => magicbees.speciesTimely
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesDoctoral] => Array
+        (
+            [name] => Doctoral
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesTimely
+                            [parent_2] => magicbees.speciesLordly
+                            [chance] => 7
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesHateful] => Array
+        (
+            [name] => Hateful
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesInfernal
+                            [parent_2] => magicbees.speciesEldritch
+                            [chance] => 9
+                            [conditions] => Occurs within a Nether biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesSpiteful] => Array
+        (
+            [name] => Spiteful
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesInfernal
+                            [parent_2] => magicbees.speciesHateful
+                            [chance] => 7
+                            [conditions] => Occurs within a Nether biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesWithering] => Array
+        (
+            [name] => Withering
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesDemonic
+                            [parent_2] => magicbees.speciesSpiteful
+                            [chance] => 6
+                            [conditions] => Occurs within a Nether biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesSkulking] => Array
+        (
+            [name] => Skulking
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesModest
+                            [parent_2] => magicbees.speciesEldritch
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesSpidery] => Array
+        (
+            [name] => Spidery
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesTropical
+                            [parent_2] => magicbees.speciesSkulking
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesGhastly] => Array
+        (
+            [name] => Ghastly
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSkulking
+                            [parent_2] => magicbees.speciesEthereal
+                            [chance] => 9
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesSmouldering] => Array
+        (
+            [name] => Smouldering
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSkulking
+                            [parent_2] => magicbees.speciesHateful
+                            [chance] => 7
+                            [conditions] => Occurs within a Nether biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesNameless] => Array
+        (
+            [name] => Nameless
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEthereal
+                            [parent_2] => magicbees.speciesOblivion
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesAbandoned] => Array
+        (
+            [name] => Abandoned
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesOblivion
+                            [parent_2] => magicbees.speciesNameless
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesForlorn] => Array
+        (
+            [name] => Forlorn
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesNameless
+                            [parent_2] => magicbees.speciesAbandoned
+                            [chance] => 6
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesDraconic] => Array
+        (
+            [name] => Draconic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesImperial
+                            [parent_2] => magicbees.speciesAbandoned
+                            [chance] => 6
+                            [conditions] => Occurs within a End biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesMutable] => Array
+        (
+            [name] => Mutable
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => magicbees.speciesEldritch
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTransmuting] => Array
+        (
+            [name] => Transmuting
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => magicbees.speciesMutable
+                            [chance] => 9
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesCrumbling] => Array
+        (
+            [name] => Crumbling
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesUnusual
+                            [parent_2] => magicbees.speciesMutable
+                            [chance] => 9
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesInvisible] => Array
+        (
+            [name] => Invisible
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesMystical
+                            [parent_2] => magicbees.speciesMutable
+                            [chance] => 15
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesCopper] => Array
+        (
+            [name] => Cuprum
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesIndustrious
+                            [parent_2] => forestry.speciesMeadows
+                            [chance] => 12
+                            [conditions] => Requires a foundation of Copper Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTin] => Array
+        (
+            [name] => Stannum
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesIndustrious
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 12
+                            [conditions] => Requires a foundation of Tin Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesIron] => Array
+        (
+            [name] => Ferrous
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesIndustrious
+                            [chance] => 12
+                            [conditions] => Requires a foundation of Block of Iron
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesLead] => Array
+        (
+            [name] => Plumbum
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesTin
+                            [parent_2] => forestry.speciesCommon
+                            [chance] => 10
+                            [conditions] => Requires a foundation of Lead Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesSilver] => Array
+        (
+            [name] => Argentum
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesImperial
+                            [parent_2] => forestry.speciesModest
+                            [chance] => 8
+                            [conditions] => Requires a foundation of Silver Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesGold] => Array
+        (
+            [name] => Auric
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesImperial
+                            [parent_2] => magicbees.speciesLead
+                            [chance] => 8
+                            [conditions] => Requires a foundation of Block of Gold
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesAluminum] => Array
+        (
+            [name] => Aluminum
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesIndustrious
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 10
+                            [conditions] => Requires a foundation of Block of Aluminum
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesArdite] => Array
+        (
+            [name] => Ardite
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesIndustrious
+                            [parent_2] => magicbees.speciesInfernal
+                            [chance] => 9
+                            [conditions] => Requires a foundation of Block of Ardite
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesCobalt] => Array
+        (
+            [name] => Cobalt
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesImperial
+                            [parent_2] => magicbees.speciesInfernal
+                            [chance] => 9
+                            [conditions] => Requires a foundation of Block of Cobalt
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesManyullyn] => Array
+        (
+            [name] => Manyullyn
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesArdite
+                            [parent_2] => magicbees.speciesCobalt
+                            [chance] => 9
+                            [conditions] => Requires a foundation of Block of Manyullyn
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesDiamond] => Array
+        (
+            [name] => Diamandi
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesAustere
+                            [parent_2] => magicbees.speciesGold
+                            [chance] => 7
+                            [conditions] => Requires a foundation of Block of Diamond
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesEmerald] => Array
+        (
+            [name] => Esmeraldi
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesAustere
+                            [parent_2] => magicbees.speciesSilver
+                            [chance] => 6
+                            [conditions] => Requires a foundation of Block of Emerald
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesApatite] => Array
+        (
+            [name] => Apatine
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesRural
+                            [parent_2] => magicbees.speciesCopper
+                            [chance] => 12
+                            [conditions] => Requires a foundation of Block of Apatite
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCAir] => Array
+        (
+            [name] => Aer
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesWindy
+                            [parent_2] => magicbees.speciesWindy
+                            [chance] => 8
+                            [conditions] => Requires a foundation of Air Crystal Cluster
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCFire] => Array
+        (
+            [name] => Ignis
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesFirey
+                            [parent_2] => magicbees.speciesFirey
+                            [chance] => 8
+                            [conditions] => Requires a foundation of Fire Crystal Cluster
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCWater] => Array
+        (
+            [name] => Aqua
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesWatery
+                            [parent_2] => magicbees.speciesWatery
+                            [chance] => 8
+                            [conditions] => Requires a foundation of Water Crystal Cluster
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCEarth] => Array
+        (
+            [name] => Solum
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEarthen
+                            [parent_2] => magicbees.speciesEarthen
+                            [chance] => 8
+                            [conditions] => Requires a foundation of Earth Crystal Cluster
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCOrder] => Array
+        (
+            [name] => Ordered
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEthereal
+                            [parent_2] => magicbees.speciesArcane
+                            [chance] => 8
+                            [conditions] => Requires a foundation of Order Crystal Cluster
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCChaos] => Array
+        (
+            [name] => Chaotic
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEthereal
+                            [parent_2] => magicbees.speciesSupernatural
+                            [chance] => 8
+                            [conditions] => Requires a foundation of Entropy Crystal Cluster
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCBatty] => Array
+        (
+            [name] => Batty
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSkulking
+                            [parent_2] => magicbees.speciesWindy
+                            [chance] => 9
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCBrainy] => Array
+        (
+            [name] => Brainy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSkulking
+                            [parent_2] => magicbees.speciesPupil
+                            [chance] => 9
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCWispy] => Array
+        (
+            [name] => Wispy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEthereal
+                            [parent_2] => magicbees.speciesGhastly
+                            [chance] => 9
+                            [conditions] => Occurs between the Waning Crescent and
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCChicken] => Array
+        (
+            [name] => Poultry
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => magicbees.speciesSkulking
+                            [chance] => 12
+                            [conditions] => Occurs within a Forest biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCBeef] => Array
+        (
+            [name] => Beefy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => magicbees.speciesSkulking
+                            [chance] => 12
+                            [conditions] => Occurs within a Plains biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTCPork] => Array
+        (
+            [name] => Porcine
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => magicbees.speciesSkulking
+                            [chance] => 12
+                            [conditions] => Occurs within a Mountain biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesRSAFluxed] => Array
+        (
+            [name] => Fluxed
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesTEElectrum
+                            [parent_2] => magicbees.speciesTEDestabilized
+                            [chance] => 10
+                            [conditions] => Requires a foundation of Fluxed Electrum Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEBronze] => Array
+        (
+            [name] => Bronzed
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesTin
+                            [parent_2] => magicbees.speciesCopper
+                            [chance] => 12
+                            [conditions] => Requires a foundation of Bronze Block
+                        )
+
+                    [1] => Array
+                        (
+                            [parent_1] => magicbees.speciesTin
+                            [parent_2] => magicbees.speciesCopper
+                            [chance] => 12
+                            [conditions] => Requires a foundation of Bronze Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEElectrum] => Array
+        (
+            [name] => Electrum
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesGold
+                            [parent_2] => magicbees.speciesSilver
+                            [chance] => 10
+                            [conditions] => Requires a foundation of Electrum Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTENickel] => Array
+        (
+            [name] => Nickel
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesIron
+                            [parent_2] => magicbees.speciesEsoteric
+                            [chance] => 14
+                            [conditions] => Requires a foundation of Ferrous Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEInvar] => Array
+        (
+            [name] => Invar
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesIron
+                            [parent_2] => magicbees.speciesTENickel
+                            [chance] => 14
+                            [conditions] => Requires a foundation of Invar Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEPlatinum] => Array
+        (
+            [name] => Platinum
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesTENickel
+                            [parent_2] => magicbees.speciesTEInvar
+                            [chance] => 10
+                            [conditions] => Requires a foundation of Shiny Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTECoal] => Array
+        (
+            [name] => Carbon
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSpiteful
+                            [parent_2] => magicbees.speciesTin
+                            [chance] => 12
+                            [conditions] => Requires a foundation of Coal Ore
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEDestabilized] => Array
+        (
+            [name] => Destabilized
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSpiteful
+                            [parent_2] => forestry.speciesIndustrious
+                            [chance] => 12
+                            [conditions] => Requires a foundation of Redstone Ore
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTELux] => Array
+        (
+            [name] => Lux
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSmouldering
+                            [parent_2] => magicbees.speciesInfernal
+                            [chance] => 12
+                            [conditions] => Requires a foundation of Glowstone
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEDante] => Array
+        (
+            [name] => Dante
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSmouldering
+                            [parent_2] => forestry.speciesAustere
+                            [chance] => 12
+                            [conditions] => Occurs within a Nether biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEPyro] => Array
+        (
+            [name] => Pyro
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesTEDante
+                            [parent_2] => magicbees.speciesTECoal
+                            [chance] => 8
+                            [conditions] => Occurs within a Nether biome
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEBlizzy] => Array
+        (
+            [name] => Blizzy
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesSkulking
+                            [parent_2] => forestry.speciesWintry
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEGelid] => Array
+        (
+            [name] => Gelid
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesTEBlizzy
+                            [parent_2] => forestry.speciesIcy
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEWinsome] => Array
+        (
+            [name] => Winsome
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesTEPlatinum
+                            [parent_2] => magicbees.speciesOblivion
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesTEEndearing] => Array
+        (
+            [name] => Endearing
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesTEWinsome
+                            [parent_2] => magicbees.speciesTECoal
+                            [chance] => 8
+                            [conditions] => Requires a foundation of Enderium Block
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesBotRooted] => Array
+        (
+            [name] => Rooted
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesEldritch
+                            [parent_2] => forestry.speciesForest
+                            [chance] => 15
+                            [conditions] => Requires a foundation of tile.botania:livingwood32767.name
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesBotSomnolent] => Array
+        (
+            [name] => Somnolent
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesBotRooted
+                            [parent_2] => magicbees.speciesWatery
+                            [chance] => 16
+                            [conditions] => Only occurs after sundown
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesBotDreaming] => Array
+        (
+            [name] => Dreaming
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesWindy
+                            [parent_2] => magicbees.speciesBotSomnolent
+                            [chance] => 8
+                            [conditions] => Only occurs after sundown
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesBotBlossom] => Array
+        (
+            [name] => Blossom
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesBotBotanic
+                            [parent_2] => magicbees.speciesEarthen
+                            [chance] => 12
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [magicbees.speciesBotFloral] => Array
+        (
+            [name] => Floral
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => magicbees.speciesBotBotanic
+                            [parent_2] => magicbees.speciesBotBlossom
+                            [chance] => 8
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.derpious] => Array
+        (
+            [name] => Derpious
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesMarshy
+                            [parent_2] => forestry.speciesCultivated
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.magenta] => Array
+        (
+            [name] => Magenta
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.blue
+                            [parent_2] => gendustry.bee.pink
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.lime] => Array
+        (
+            [name] => Lime
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.white
+                            [parent_2] => gendustry.bee.green
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.lightblue] => Array
+        (
+            [name] => Light Blue
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.white
+                            [parent_2] => gendustry.bee.blue
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.pink] => Array
+        (
+            [name] => Pink
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.white
+                            [parent_2] => gendustry.bee.red
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.cyan] => Array
+        (
+            [name] => Cyan
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.blue
+                            [parent_2] => gendustry.bee.green
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.silver] => Array
+        (
+            [name] => Light Gray
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.gray
+                            [parent_2] => gendustry.bee.white
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.gray] => Array
+        (
+            [name] => Gray
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.black
+                            [parent_2] => gendustry.bee.white
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.green] => Array
+        (
+            [name] => Green
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.blue
+                            [parent_2] => gendustry.bee.yellow
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.orange] => Array
+        (
+            [name] => Orange
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.yellow
+                            [parent_2] => gendustry.bee.red
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.purple] => Array
+        (
+            [name] => Purple
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.red
+                            [parent_2] => gendustry.bee.blue
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.black] => Array
+        (
+            [name] => Black
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => gendustry.bee.white
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.white] => Array
+        (
+            [name] => White
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesWintry
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.brown] => Array
+        (
+            [name] => Brown
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesTropical
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.yellow] => Array
+        (
+            [name] => Yellow
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesModest
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.red] => Array
+        (
+            [name] => Red
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesCommon
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+    [gendustry.bee.blue] => Array
+        (
+            [name] => Blue
+            [parents] => Array
+                (
+                    [0] => Array
+                        (
+                            [parent_1] => forestry.speciesForest
+                            [parent_2] => forestry.speciesDiligent
+                            [chance] => 10
+                            [conditions] =>
+                        )
+
+                )
+
+            [notes] =>
+        )
+
+)
